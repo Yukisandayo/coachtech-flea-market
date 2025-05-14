@@ -1,0 +1,49 @@
+.tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.tabs button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: none;
+    cursor: pointer;
+}
+
+.tabs .active {
+    background: #ddd;
+}
+
+.profile-image__container {
+    width: 150px;
+    height: 150px;
+}
+
+.profile-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.default-profile-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #959292;
+    display: inline-block;
+}
+
+.product-grid {
+    display: flex;
+}
+
+.product-card {
+    width: 200px;
+    height: 200px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}

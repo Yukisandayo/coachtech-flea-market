@@ -1,0 +1,21 @@
+.header {
+    width: 100vw;
+    background-color: #000;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header__inner {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin: 0 auto 0 0;
+}

@@ -1,0 +1,22 @@
+.profile-form {
+    display: flex;
+}
+
+.profile-image__container {
+    width: 150px;
+    height: 150px;
+}
+
+.profile-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image_output {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
